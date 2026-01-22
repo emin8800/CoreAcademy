@@ -87,13 +87,23 @@ WSGI_APPLICATION = 'core_academy_backend.wsgi.application'
 # }
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'coreacademy',  # Bağlandığınız veritabanı adı
+#         'USER': 'postgres',
+#         'PASSWORD': '8800',  # PostgreSQL şifreniz
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'coreacademy',  # Bağlandığınız veritabanı adı
-        'USER': 'postgres',
-        'PASSWORD': '8800',  # PostgreSQL şifreniz
-        'HOST': 'localhost',
+        'NAME': 'coreacademy',
+        'USER': 'coreacademy_user',
+        'PASSWORD': 'BURAYA_RENDER_PASSWORD_YAZ',
+        'HOST': 'dpg-d5p4oo75c7fs73asusqg-a',
         'PORT': '5432',
     }
 }
