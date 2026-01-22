@@ -102,7 +102,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'coreacademy',
         'USER': 'coreacademy_user',
-        'PASSWORD': 'BURAYA_RENDER_PASSWORD_YAZ',
+        'PASSWORD': 'VVBLq5djhcpVBdg2ywQaZcMyzsVyTnD3',
         'HOST': 'dpg-d5p4oo75c7fs73asusqg-a',
         'PORT': '5432',
     }
