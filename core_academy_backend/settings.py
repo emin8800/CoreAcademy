@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
     "https://greenyellow-opossum-674654.hostingersite.com",
+    "https://coreacademy.az/",
 ]
 
 
@@ -62,6 +63,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = False
 CSRF_TRUSTED_ORIGINS = [
     "https://greenyellow-opossum-674654.hostingersite.com",
+    "https://coreacademy.az/",
 ]
 
 ROOT_URLCONF = 'core_academy_backend.urls'
@@ -165,5 +167,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 
